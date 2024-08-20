@@ -1,6 +1,8 @@
 # AzureSemanticKernelLunchNLearn
 
-A demo for Azure Semantic Kernel in .NET 8
+A demo for Azure Semantic Kernel in .NET 8 
+
+[Check it out here](http://localhost:5225/)
 
 ## Introduction
 
@@ -11,6 +13,10 @@ https://learn.microsoft.com/en-us/semantic-kernel/overview/
 ### Quick Start Sample
 
 https://learn.microsoft.com/en-us/semantic-kernel/get-started/quick-start-guide?pivots=programming-language-csharp
+
+```bash
+dotnet add package Microsoft.SemanticKernel
+```
 
 ## Concepts
 
@@ -43,6 +49,8 @@ The OpenAI SDK for .NET is a library that provides a simple way to interact with
 ## Notes
 
 Include (25:38) slide in Semantic Kernel for Beginners: Exploring the World of Semantic Kernel
+
+https://platform.openai.com/api-keys
 
 ## Resources
 

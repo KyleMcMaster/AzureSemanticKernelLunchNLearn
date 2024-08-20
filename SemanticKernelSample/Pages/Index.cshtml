@@ -4,7 +4,26 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@if(!Model.ChatHistory.Any())
+{
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+}
+
+@if(Model.ChatHistory.Any())
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Chat History</h2>
+                <ul class="list-group"></ul>
+                @foreach (var chat in Model.ChatHistory)
+                {
+                    <li class="list-group-item">@chat</li>
+                }
+            </div>
+        </div>
+    </div>
+}
