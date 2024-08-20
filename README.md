@@ -42,7 +42,7 @@ The OpenAI SDK for .NET is a library that provides a simple way to interact with
 
 ## Notes
 
-Include 25:38 slide in Semantic Kernel for Beginners: Exploring the World of Semantic Kernel
+Include (25:38) slide in Semantic Kernel for Beginners: Exploring the World of Semantic Kernel
 
 ## Resources
 
