@@ -30,6 +30,8 @@ https://learn.microsoft.com/en-us/semantic-kernel/concepts/kernel?pivots=program
 
 ### Plugins
 
+https://learn.microsoft.com/en-us/semantic-kernel/concepts/plugins/?pivots=programming-language-csharp
+
 ### Planning
 
 Simple planning:
