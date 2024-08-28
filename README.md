@@ -55,6 +55,10 @@ Include (25:38) slide in Semantic Kernel for Beginners: Exploring the World of S
 https://platform.openai.com/api-keys
 https://platform.openai.com/settings/organization/limits
 
+## Examples
+
+https://github.com/dotnet/eShopSupport
+
 ## Resources
 
 - [Azure Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
