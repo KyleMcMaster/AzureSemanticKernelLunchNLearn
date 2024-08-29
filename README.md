@@ -9,6 +9,7 @@ A demo for Azure Semantic Kernel in .NET 8
 This project is a demo for Azure Semantic Kernel in .NET 8. It is a simple console application that demonstrates how to use the Azure Semantic Kernel to analyze text.
 
 https://learn.microsoft.com/en-us/semantic-kernel/overview/
+https://azure.microsoft.com/en-us/products/ai-services
 
 ### Quick Start Sample
 
@@ -52,7 +53,7 @@ https://learn.microsoft.com/en-us/semantic-kernel/concepts/kernel?pivots=program
 
 The OpenAI SDK for .NET is a library that provides a simple way to interact with the OpenAI API.
 
-## Notes
+## Notes To Add To Presentation
 
 - Include (25:38) slide in Semantic Kernel for Beginners: Exploring the World of Semantic Kernel
 
