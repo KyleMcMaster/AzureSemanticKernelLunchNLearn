@@ -20,13 +20,13 @@ dotnet add package Microsoft.SemanticKernel
 
 ## Concepts
 
-### Agents
+Use Agent walkthrough to cover Agents, Plugins, Planning, and Personas.
 
 https://learn.microsoft.com/en-us/semantic-kernel/concepts/agents?pivots=programming-language-csharp
 
-### Kernel
+### Agents
 
-https://learn.microsoft.com/en-us/semantic-kernel/concepts/kernel?pivots=programming-language-csharp#the-kernel-is-at-the-center-of-your-agents
+https://learn.microsoft.com/en-us/semantic-kernel/concepts/agents?pivots=programming-language-csharp
 
 ### Plugins
 
@@ -41,6 +41,10 @@ Custom Planning:
 https://learn.microsoft.com/en-us/semantic-kernel/concepts/planning?pivots=programming-language-csharp
 
 ### Personas
+
+### Kernel
+
+https://learn.microsoft.com/en-us/semantic-kernel/concepts/kernel?pivots=programming-language-csharp#the-kernel-is-at-the-center-of-your-agents
 
 ### Connecting Data (Vector Storage)
 
