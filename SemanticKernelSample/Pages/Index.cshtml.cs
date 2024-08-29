@@ -4,20 +4,12 @@ using Microsoft.SemanticKernel.ChatCompletion;
 
 namespace SemanticKernelSample.Pages;
 
-public class IndexModel : PageModel
+public class IndexModel(ChatHistory chatHistory, Kernel kernel) : PageModel
 {
-    private readonly ChatHistory _chatHistory;
-    private readonly Kernel _kernel;
-    private readonly ILogger<IndexModel> _logger;
+    private readonly ChatHistory _chatHistory = chatHistory;
+    private readonly Kernel _kernel = kernel;
 
     public List<string> ChatHistory => _chatHistory.Select(ch => ch.ToString()).ToList();
-
-    public IndexModel(ChatHistory chatHistory, Kernel kernel, ILogger<IndexModel> logger)
-    {
-        _chatHistory = chatHistory;
-        _logger = logger;
-        _kernel = kernel;
-    }
 
     public void OnGet()
     {
@@ -29,7 +21,7 @@ public class IndexModel : PageModel
         string message = Request.Form["message"]!;
         _chatHistory.AddUserMessage(message);
 
-        var response = await _kernel.InvokePromptAsync(message);
+        FunctionResult response = await _kernel.InvokePromptAsync(message);
         _chatHistory.AddAssistantMessage(response.ToString());
     }
 }
