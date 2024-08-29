@@ -60,7 +60,9 @@ The OpenAI SDK for .NET is a library that provides a simple way to interact with
 - https://platform.openai.com/settings/organization/limits
 - image for billing in images folder
 
-- Mention Retrieval-Augmented Generation (RAG) systems?
+- Mention Retrieval-Augmented Generation (RAG) systems
+https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview
+https://help.openai.com/en/articles/8868588-retrieval-augmented-generation-rag-and-semantic-search-for-gpts
 
 ## Examples
 
