@@ -26,7 +26,7 @@ public class IndexModel : PageModel
 
     public async Task OnPostAsync()
     {
-        string message = Request.Form["message"];
+        string message = Request.Form["message"]!;
         _chatHistory.AddUserMessage(message);
 
         var response = await _kernel.InvokePromptAsync(message);
