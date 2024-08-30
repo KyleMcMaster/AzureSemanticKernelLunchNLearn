@@ -43,6 +43,8 @@ https://learn.microsoft.com/en-us/semantic-kernel/concepts/planning?pivots=progr
 
 ### Personas
 
+https://learn.microsoft.com/en-us/semantic-kernel/concepts/personas?pivots=programming-language-csharp
+
 ### Kernel
 
 https://learn.microsoft.com/en-us/semantic-kernel/concepts/kernel?pivots=programming-language-csharp#the-kernel-is-at-the-center-of-your-agents
