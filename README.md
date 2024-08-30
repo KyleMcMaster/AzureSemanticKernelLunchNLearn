@@ -65,6 +65,8 @@ The OpenAI SDK for .NET is a library that provides a simple way to interact with
 https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview
 https://help.openai.com/en/articles/8868588-retrieval-augmented-generation-rag-and-semantic-search-for-gpts
 
+- Mention Sam Gomez's talk on Azure Semantic Kernel
+
 ## Examples
 
 https://github.com/dotnet/eShopSupport
